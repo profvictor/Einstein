@@ -23,7 +23,7 @@
 <style>
 
 #serie{
-    color: #EBC950;
+    color: #E57E2B;
     text-align: center;
     font-size: 30px;
     margin-bottom: 2px;
@@ -101,8 +101,8 @@
 	font-size: 20px;
 	margin-top: 10px;
 	border: none;
-	color: #1d3557;
-	background-color: #EBC950;
+	color: #ffffff;
+	background-color: #E57E2B;
 	width: auto;
     margin-right: 80px;
     margin-left: 80px;
@@ -112,7 +112,7 @@
 	cursor: pointer;
     }
 #botcalc:hover{
-    background-color: #9E893E;
+    background-color: #b15607;
     color: #fff;
     transition: 0.5s;
 
@@ -167,12 +167,12 @@
 <body>
     <div class="container">
         <div class="header">
-                <img id = "imagemeinstein" src="logoeinstein.png" alt="logoeinstein">
+                <img id = "imagemeinstein" src="/icons/logoeinstein.png" alt="logoeinstein">
         </div>
 
     <div class="meio">
         <div class="imagem1">
-            <img id = "imagem" src="sinais.png" alt="sinais">
+            <img id = "imagem" src="icons/sinais.png" alt="sinais">
         </div>
         <div>  
             <h1 class="titulo1">Calculadora de médias</h1>
@@ -192,7 +192,7 @@
         		<p id="resultado">---</p>
                 <p id="mensagem"></p>
 			    <button id="botcalc" onClick="calcularmed()" >Calcular</button>
-			    <input id="botvoltar" type='button' value='Voltar' onclick='history.go(-1)' />
+			    <input id="botvoltar" type='button' value='Voltar' onclick="window.location.href='index.html';" />
             </div>
             </div>
 
